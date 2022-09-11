@@ -1,9 +1,18 @@
 import jio from "../images/project3.png"
 import shop from "../images/project2.png"
 import nnnow from "../images/project1.png"
-import google from "../images/google.png"
+import timecamp from "../images/timecamp.png"
 // --------------------------------------- Project List
 export const ProjectList = [
+  {
+    img: timecamp,
+    title: "Clone of TimeCamp.com",
+    description:
+      "TimeCamp is a simple, yet feature-rich time tracking app to help you gain insights into yourprojects and tasks.",
+    tech_stack: "HTML, CSS, JavaScript, Reactjs, ChakraUi, Node.js, Express.js, MongoDB",
+    github_url: "https://github.com/krunalbhandekar/frightened-snake-4355",
+    demo_url: "https://timecampclone.vercel.app/",
+  },
   {
     img: jio,
     title: "Clone of JioMart.com",
@@ -28,16 +37,8 @@ export const ProjectList = [
     tech_stack:  "HTML, CSS, Javascript",
     github_url: "https://github.com/ganeshsabale99/NNNOWClone",
     demo_url: "https://willowy-tartufo-0e4946.netlify.app/",
-  },
-  {
-    img: google,
-    title: "Clone of Google Search",
-    description:
-      "Google Search is a search engine provided by Google. It is the most-visited website in the world. user can put input manually or via voice",
-    tech_stack: "HTML, CSS, JavaScript, Reactjs, Google Api",
-    github_url: "https://github.com/krunalbhandekar/Google-Search-Clone",
-    demo_url: "https://google-voice-search.netlify.app/",
-  },
+  }
+  
 ];
 
 // --------------------------------------- Skills
